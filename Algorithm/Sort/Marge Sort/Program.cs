@@ -40,6 +40,9 @@ public class program
         }
 
         while (i <= mid)
+        {
             array[k] = tempArray[i++];
+            k++;
+        }
     }
 }
